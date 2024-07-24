@@ -9,7 +9,7 @@ stage('Build')
             echo "Build"
         }
     }
-    stage('Build')
+    stage('Test')
     {
         steps 
         {
