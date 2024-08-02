@@ -1,0 +1,30 @@
+pipeline
+{
+    agent any
+    stages
+    {
+        stage(Build)
+        {
+            step:
+            {
+                echo "Nothing is better than a loyal friend"
+
+            }
+        }
+        stage(Deploy)
+        {
+            step:
+            {
+                echo "Slow and steady wins the race"
+            }
+        }
+        stage(Test)
+        {
+            step:
+            {
+                echo "A Good Book is a Good Friend"
+            }
+        }
+
+    }
+}
