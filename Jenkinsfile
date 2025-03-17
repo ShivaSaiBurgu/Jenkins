@@ -13,6 +13,11 @@ pipeline {
           sh 'echo This is Building stage'
             }
         }
+         stage('Compile') {
+            steps {
+                sh 'echo This is Compiling stage stage'
+            }
+          }
          stage('Scan') 
          {
             steps 
@@ -31,5 +36,6 @@ pipeline {
                 sh 'echo This is Deploying stage'
             }
           }
+
     }
 }
