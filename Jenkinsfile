@@ -23,7 +23,7 @@ pipeline {
           stage('Test') {
             steps {
                sh 'echo This is testing stage'
-                sh sleep 10
+                sh 'sleep 10'
             }
           }
     }
