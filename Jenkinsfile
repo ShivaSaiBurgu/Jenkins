@@ -18,13 +18,7 @@ pipeline {
                 sh 'echo This is Compiling stage stage'
             }
           }
-         stage('Scan') 
-         {
-            steps 
-            {
-              sh 'echo This is scanning stage'
-            }
-         }
+        
           stage('Test') {
             steps {
                sh 'echo This is testing stage'
